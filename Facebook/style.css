@@ -1,0 +1,234 @@
+html{
+  font-size: 10px;
+}
+
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+.banner{
+  height: 10rem;
+  width: 100%;
+  background-color: #48649F;
+  border-bottom: 0.1rem solid #2536a9;
+}
+
+.logo img{
+  position: static;
+  height: 10rem;
+  width: 24rem;
+
+}
+
+.login_details{
+  display: inline-flex;
+  position: absolute;
+  left: 70%;
+  padding-top: 2.5rem;
+  font-family: verdana;
+}
+
+.login_details .email,
+.login_details .password{
+  color: white;
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+
+.login_details .button{
+  height: 2rem;
+  width:5rem;
+  font-weight: 200;
+  font-family: verdana;
+  margin-top: 2.1rem;
+  margin-left: 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color: black;
+  background: #2d5bba ;
+  border: 0.1rem solid #224285;
+}
+
+.login_details .button:hover{
+  background: #3B5998;
+}
+
+.middle{
+
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.middle p{
+  font-family: verdana;
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: #083987;
+}
+
+.middle img{
+  margin-top: 2rem;
+  height: 36rem;
+  width: 82rem;
+}
+
+.signup{
+  font-family: arial;
+  position: absolute;
+  left: 70%;
+  margin-top: 1.5rem;
+}
+
+.signup .first{
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+.signup .second{
+  margin-top: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.signup .form-signup{
+  margin-top: 1.6rem;
+  padding-left: 1rem;
+}
+
+.signup .form-signup .firstname{
+  font-size: 1.6rem;
+  border: 0.1rem solid silver;
+  border-radius: 0.4rem;
+  height: 3.8rem;
+  width: 19rem;
+  color: grey;
+}
+
+.signup .form-signup .lastname{
+  font-size: 1.6rem;
+  border: 0.1rem solid silver;
+  border-radius: 0.4rem;
+  height: 3.8rem;
+  width: 19rem;
+  margin-left: 1.3rem;
+  color: grey;
+}
+
+.signup .form-signup .email{
+  font-size: 1.6rem;
+  border: 0.1rem solid silver;
+  border-radius: .4rem;
+  height: 3.8rem;
+  width: 19rem;
+  color: grey;
+  width: 40rem;
+  margin-top: 1rem;
+}
+
+.signup .form-signup .password2{
+  margin-left: 1.3rem;
+}
+
+.signup .form-signup .password1,
+.signup .form-signup .password2{
+  color: grey;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid silver;
+  border-radius: 0.4rem;
+  height: 3.8rem;
+  width: 19rem;
+}
+
+.signup .form-signup .birthday{
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: grey;
+  font-weight: bold;
+  width: 1rem;
+  margin-left: 0.1rem;
+}
+
+.signup .form-signup .birthdate{
+  margin-top: 0.2rem;
+  font-size: 2rem;
+  height: 2.8rem;
+  padding: 0.4rem 0.4rem;
+
+}
+
+.signup .form-signup .birthdate .day,
+.signup .form-signup .birthdate .year{
+  margin-left: -0.7rem;
+}
+
+.signup .form-signup .birthdate .month,
+.signup .form-signup .birthdate .day,
+.signup .form-signup .birthdate .year{
+  font-size: 1.6rem;
+}
+
+.signup .form-signup .gender .sex{
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  color: grey;
+  font-weight: bold;
+  width: 4rem;
+  margin-left: -0.1rem;
+}
+
+.signup .form-signup .gender .male,
+.signup .form-signup .gender .female,
+.signup .form-signup .gender .other{
+  margin-top: 0.6rem;
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.signup .form-signup .gender .female,
+.signup .form-signup .gender .other{
+  margin-left: 1rem;
+}
+
+.agreement{
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  width: 35rem;
+  color: grey;
+  margin-left: 1rem;
+  font-family: arial;
+}
+
+.btn{
+  margin-top: 2rem;
+  height: 3.8rem;
+  width: 17rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  border: 0.1rem  solid #006117;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  background: #6fad5a;
+}
+
+.btn:hover{
+  background: #74b85e;
+}
+
+.foot{
+  margin-top: 10rem;
+  display: flex;
+  cursor: pointer;
+}
+
+.middle .foot .about,
+.middle .foot .services,
+.middle .foot .carrers{
+  font-size: 1.2rem;
+  margin-left: 40%;
+  font-weight: bold;
+}
